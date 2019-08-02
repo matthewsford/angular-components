@@ -18,6 +18,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-components": [
+        "dist/angular-components"
+      ],
+      "angular-components/*": [
+        "dist/angular-components/*"
+      ]
+    }
   }
 }

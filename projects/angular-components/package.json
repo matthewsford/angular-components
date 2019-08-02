@@ -1,0 +1,12 @@
+{
+  "name": "@matthewfordus/angular-components",
+  "version": "0.0.1",
+  "author": "Matthew Ford <matthew@matthewford.us>",
+  "license": "Apache-2.0",
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^8.0.2",
+    "@angular/core": "^8.0.2",
+    "@angular/material": "^8.0.2"
+  }
+}

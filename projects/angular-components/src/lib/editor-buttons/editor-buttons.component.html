@@ -1,0 +1,25 @@
+<button
+  mat-raised-button
+  type="button"
+  (click)="close.emit()"
+  color="primary"
+  *ngIf="!modified">
+  Close
+</button>
+<button
+  mat-raised-button
+  type="button"
+  (click)="discard.emit()"
+  color="warn"
+  *ngIf="modified">
+  Discard
+</button>
+<button
+  mat-raised-button
+  type="button"
+  (click)="save.emit()"
+  color="primary"
+  *ngIf="modified"
+  [disabled]="!valid">
+  Save
+</button>
